@@ -1,11 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JS Slider</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="slider.css">
+	<title>JS Slider</title>
 </head>
+
 <body>
-    
+	<div id="viewport" class="sliderWrapper">
+		<div class="slider" style="left: 0">
+			<div class="slide">1<img src="1.jpg" alt=""></div>
+			<div class="slide">2<img src="2.jpg" alt=""></div>
+			<div class="slide">3<img src="3.jpg" alt=""></div>
+			<div class="slide">4<img src="2.jpg" alt=""></div>
+		</div>
+	</div>
+
+	<!-- <div id="viewSlider">
+		<div class="viewSlide"></div>
+		<div class="viewSlide"></div>
+		<div class="viewSlide"></div>
+	</div> -->
+
+	<button class="prev" id="prev">Назад</button>
+	<button class="next" id="next">Вперёд</button>
+
+	<script src="func.js"></script>
+	<script src="slider.js"></script>
 </body>
+
 </html>
